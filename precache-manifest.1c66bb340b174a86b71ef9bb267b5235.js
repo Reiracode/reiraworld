@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25c25131bc9a374ba9437071852c09fc",
+    "revision": "a08b93bc2deb02e4d185cc89caabe57c",
     "url": "/reiraworld/index.html"
   },
   {
-    "revision": "70807c8bd6dec1176bf3",
+    "revision": "5f3cb5308c12d95e4630",
     "url": "/reiraworld/static/css/main.b100e6da.chunk.css"
   },
   {
-    "revision": "eac0b74f6414280ec4b1",
-    "url": "/reiraworld/static/js/2.42d6b5da.chunk.js"
+    "revision": "cd1ed66f857944e679d3",
+    "url": "/reiraworld/static/js/2.61d18564.chunk.js"
   },
   {
-    "revision": "70807c8bd6dec1176bf3",
-    "url": "/reiraworld/static/js/main.e82e11f4.chunk.js"
+    "revision": "5f3cb5308c12d95e4630",
+    "url": "/reiraworld/static/js/main.7188ced2.chunk.js"
   },
   {
     "revision": "0b3475a2d96f65472661",
