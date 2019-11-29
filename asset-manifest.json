@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reiraworld/static/css/main.34de6062.chunk.css",
-    "main.js": "/reiraworld/static/js/main.e6be0909.chunk.js",
-    "main.js.map": "/reiraworld/static/js/main.e6be0909.chunk.js.map",
+    "main.js": "/reiraworld/static/js/main.16a23f61.chunk.js",
+    "main.js.map": "/reiraworld/static/js/main.16a23f61.chunk.js.map",
     "runtime-main.js": "/reiraworld/static/js/runtime-main.f43f5d62.js",
     "runtime-main.js.map": "/reiraworld/static/js/runtime-main.f43f5d62.js.map",
     "static/js/2.96491f1b.chunk.js": "/reiraworld/static/js/2.96491f1b.chunk.js",
     "static/js/2.96491f1b.chunk.js.map": "/reiraworld/static/js/2.96491f1b.chunk.js.map",
     "index.html": "/reiraworld/index.html",
-    "precache-manifest.d564e5aec7e90c907ef051e388da8bc3.js": "/reiraworld/precache-manifest.d564e5aec7e90c907ef051e388da8bc3.js",
+    "precache-manifest.b565fcd009e3a1dc9c79d78b9047c868.js": "/reiraworld/precache-manifest.b565fcd009e3a1dc9c79d78b9047c868.js",
     "service-worker.js": "/reiraworld/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/reiraworld/static/css/main.34de6062.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f43f5d62.js",
     "static/js/2.96491f1b.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.e6be0909.chunk.js"
+    "static/js/main.16a23f61.chunk.js"
   ]
 }
