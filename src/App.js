@@ -17,7 +17,7 @@
 // }
 
 //   export default App;
-import React from "react";
+import React , { Component } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -28,6 +28,7 @@ import {
 } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import About from "./components/About"; 
 import Card from "react-bootstrap/Card";
 
 // import { Avatar } from "@material-ui/core";
@@ -39,13 +40,19 @@ export default function App() {
       <div>
         <ul>
           <li>
-            <Link to="./">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">gh-pages-demo</Link>
+            <Link to="/about">about</Link>
           </li>
           <li>
             <Link to="/topics">Topics</Link>
+          </li>
+          <li>
+            <Link to="#">work experience</Link>
+          </li>
+          <li>
+            <Link to="#">skills and competencies</Link>
           </li>
         </ul>
 
@@ -61,7 +68,6 @@ export default function App() {
           <Route path="/">
             <Home />
           </Route>
-
         </Switch>
       </div>
     </Router>
@@ -95,31 +101,31 @@ function Home(props) {
   );
 }
 
-function About() {
-  return (
-    <div>
-      <h2>About</h2>
-      <a
-        href="https://reiracode.github.io/react-gh-pages-demo/"
-        target="_blank"
-      >
-        DEMO
-      </a>
+// function About() {
+//   return (
+//     <div>
+//       <h2>About</h2>
+//       <a
+//         href="https://reiracode.github.io/react-gh-pages-demo/"
+//         target="_blank"
+//       >
+//         DEMO
+//       </a>
 
-      <a href="https://codepen.io/ReiraWorld/full/KeLexZ">
-        GSAP Text Animation
-      </a>
+//       <a href="https://codepen.io/ReiraWorld/full/KeLexZ">
+//         GSAP Text Animation
+//       </a>
 
-      <iframe
-        src="https://codepen.io/ReiraWorld/full/KeLexZ"
-        width="250px"
-        height="300px"
-        frameborder="0"
-        scrolling="no"
-      ></iframe>
-    </div>
-  );
-}
+//       <iframe
+//         src="https://codepen.io/ReiraWorld/full/KeLexZ"
+//         width="250px"
+//         height="300px"
+//         frameborder="0"
+//         scrolling="no"
+//       ></iframe>
+//     </div>
+//   );
+// }
 
 function Topics() {
   let match = useRouteMatch();
