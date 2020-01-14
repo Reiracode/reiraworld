@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
     background-color:grey;
+=======
+     background-color:rgb(247, 242, 242);
+>>>>>>> fcb82a65c0575889b716e02de8868c1800eb69a0
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -13,5 +17,9 @@ code {
     monospace;
 }
 #about{
+<<<<<<< HEAD
       background-color:grey;
+=======
+      background-color:rgb(247, 242, 242);
+>>>>>>> fcb82a65c0575889b716e02de8868c1800eb69a0
 }
