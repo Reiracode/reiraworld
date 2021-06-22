@@ -10,7 +10,6 @@
 //     return (
 //       <div className="App">
 //         <Menu/> 
-         
 //       </div>
 //     );
 //   }
@@ -30,7 +29,6 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/About"; 
 import Card from "react-bootstrap/Card";
-
 // import { Avatar } from "@material-ui/core";
 
 export default function App() {
@@ -38,7 +36,7 @@ export default function App() {
   return (
     <Router>
       <div>
-        <ul>
+        <ul className="header">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -80,6 +78,7 @@ function Home(props) {
     drawer: "drawer",
     drawerPaper: "drawerPaper"
   };
+
   return (
     <div>
       <h2>Home</h2>
@@ -101,39 +100,12 @@ function Home(props) {
   );
 }
 
-// function About() {
-//   return (
-//     <div>
-//       <h2>About</h2>
-//       <a
-//         href="https://reiracode.github.io/react-gh-pages-demo/"
-//         target="_blank"
-//       >
-//         DEMO
-//       </a>
-
-//       <a href="https://codepen.io/ReiraWorld/full/KeLexZ">
-//         GSAP Text Animation
-//       </a>
-
-//       <iframe
-//         src="https://codepen.io/ReiraWorld/full/KeLexZ"
-//         width="250px"
-//         height="300px"
-//         frameborder="0"
-//         scrolling="no"
-//       ></iframe>
-//     </div>
-//   );
-// }
-
 function Topics() {
   let match = useRouteMatch();
 
   return (
     <div>
       <h2>Topics</h2>
-
       <ul>
         <li>
           <Link to={`${match.url}/components`}>Components</Link>

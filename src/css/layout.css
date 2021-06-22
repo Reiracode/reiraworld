@@ -1,5 +1,17 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:link,a:visited,a:hover,a:active {
+  color: unset;
+}
+
 body {
-    background-color:rgb(102, 56, 56);
+  background-color:white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -13,5 +25,34 @@ code {
     monospace;
 }
 #about{
-      background-color:grey;
+  background-color:lightblue;
 }
+
+.header{
+  display: flex;
+  justify-content:space-between;
+}
+
+.header li{
+  padding: 10px;
+}
+
+#about{
+  width:100vw;
+}
+
+.content{
+   width:80vw;
+   margin:0 auto;
+}
+#about ul{
+  display:flex;
+  flex-direction: column;
+}
+
+#about ul li img{
+  width:250px;
+  /* height: 100%; */
+  object-fit: contain;
+}
+
