@@ -1,29 +1,37 @@
 import React from "react";
 
 const About = () => {
-    return (
+  return (
     <div id="about">
-        <h2>About</h2>
-        <a
-        href="https://reiracode.github.io/react-gh-pages-demo/"
-        target="_blank"
-        >
-        DEMO
-        </a>
+      <h2>Aboutss</h2>
+      <ul>
+        <li>
+          <a
+            href="https://reiracode.github.io/cloversky/project_cloversky.html"
+            target="_blank"
+          >
+            Cloversky
+          </a>
+        </li>
 
-        <a href="https://codepen.io/ReiraWorld/full/KeLexZ">
-        GSAP Text Animation
-        </a>
+        <li>
+          <a href="https://codepen.io/ReiraWorld/full/YzZOoVe" target="_blank">
+            stroke animation-css
+          </a>
+        </li>
 
-        <iframe
-        src="https://codepen.io/ReiraWorld/full/KeLexZ"
-        width="250px"
-        height="300px"
-        frameborder="0"
-        scrolling="no"
-        ></iframe>
+        <li>
+          <iframe
+            src="https://codepen.io/ReiraWorld/full/YzZOoVe"
+            width="350px"
+            height="300px"
+            frameBorder="0"
+            scrolling="no"
+          ></iframe>
+        </li>
+      </ul>
     </div>
-    );
-}
+  );
+};
 
 export default About;
